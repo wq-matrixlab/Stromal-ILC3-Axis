@@ -2,7 +2,7 @@
 
 GENOME_DIR="/data/QW/QW/scRNA_ref/Human_sc_refdata/STAR_ref/98"
 WHITELIST="/data/QW/QW/scRNA_ref/Human_sc_refdata/STAR_ref/737K-august-2016.txt"
-OUTPUT_BASE="/data/QW/QW/Public_Databases/GEO/Fibroblast_IBD_IL1/scVelo/"
+OUTPUT_BASE="/data/QW/QW/Public_Databases/GEO/Fibroblast_UC/scVelo/"
 
 SAMPLES=$(ls *R1_001.fastq.gz | sed 's/_L00.*//' | sort | uniq)
 
